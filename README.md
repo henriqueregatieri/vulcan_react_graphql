@@ -1,9 +1,30 @@
+# Vulcan Example - Simple CRUD
 
-# Vulcan Starter
+Simple CRUD using Vulcan with React + GraphQL
+
+#### Quick start
+
+- Install Meteor: https://www.meteor.com/developers/install
+- Clone this repository
+- Run:
+
+```
+meteor npm install
+```
+
+- Then:
+
+```
+meteor npm start
+```
+
+---
+
+## Vulcan Starter Documentation
 
 This kit gives you all you need to quickly learn Vulcan and launch your own projects.
 
-Other resources: 
+Other resources:
 
 - [Vulcan Docs](http://docs.vulcanjs.org)
 - [Vulcan Slack](http://slack.vulcanjs.org)
@@ -12,17 +33,20 @@ Other resources:
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 **Table of Contents**
 
-- [Quick Install](#quick-install)
-    - [Step 1 - Clone](#step-1---clone)
-    - [Step 2 – Run](#step-2--run)
-- [Getting Started Tutorial](#getting-started-tutorial)
-- [Other Examples](#other-examples)
-- [Complete Install](#complete-install)
-    - [Critical prerequisite](#critical-prerequisite)
-    - [Step 1 - Preparation](#step-1---preparation)
-    - [Step 2 - Test Vulcan installation](#step-2---test-vulcan-installation)
-    - [Step 3 - Prepare your project](#step-3---prepare-your-project)
-    - [Step 4 - Test your project installation](#step-4---test-your-project-installation)
+- [Vulcan Example - Simple CRUD](#vulcan-example---simple-crud)
+      - [Quick start](#quick-start)
+  - [Vulcan Starter Documentation](#vulcan-starter-documentation)
+  - [Quick Install](#quick-install)
+      - [Step 1 - Clone](#step-1---clone)
+      - [Step 2 – Run](#step-2--run)
+  - [Getting Started Tutorial](#getting-started-tutorial)
+  - [Other Examples](#other-examples)
+  - [Complete Install](#complete-install)
+      - [Critical prerequisite](#critical-prerequisite)
+      - [Step 1 - Preparation](#step-1---preparation)
+      - [Step 2 - Test Vulcan installation](#step-2---test-vulcan-installation)
+      - [Step 3 - Prepare your project](#step-3---prepare-your-project)
+      - [Step 4 - Test your project installation](#step-4---test-your-project-installation)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
@@ -48,7 +72,7 @@ npm start
 
 ## Getting Started Tutorial
 
-When you first run this repo, you'll see the first step of Vulcan's interactive Getting Started tutorial. 
+When you first run this repo, you'll see the first step of Vulcan's interactive Getting Started tutorial.
 
 ![https://d3vv6lp55qjaqc.cloudfront.net/items/0I2W3G1i2K3z0p052c02/Screen%20Shot%202018-02-03%20at%2011.16.53.png?X-CloudApp-Visitor-Id=43642&v=807ac6f9](https://d3vv6lp55qjaqc.cloudfront.net/items/0I2W3G1i2K3z0p052c02/Screen%20Shot%202018-02-03%20at%2011.16.53.png?X-CloudApp-Visitor-Id=43642&v=807ac6f9)
 
@@ -64,16 +88,16 @@ All while modifying the code of the tutorial itself! How meta!
 
 ## Other Examples
 
-Additionally, this repo also contains the following example apps: 
+Additionally, this repo also contains the following example apps:
 
 - **Simple Example**: build a simple paginated list of movies [[video]](http://docs.vulcanjs.org/example-simple.html).
-- **Movies Example**: like the Simple example, but more in-depth [[video+tutorial]](http://docs.vulcanjs.org/example-movies.html). 
+- **Movies Example**: like the Simple example, but more in-depth [[video+tutorial]](http://docs.vulcanjs.org/example-movies.html).
 - **Permissions Example**: manage user roles in Vulcan [[video]](http://docs.vulcanjs.org/example-permissions.html).
 - **Instagram Example**: create a simple Instagram clone [[video]](http://docs.vulcanjs.org/example-instagram.html).
 - **Interfaces Example**: using GraphQL interfaces.
 - **Reactions Example**: implement Facebook-style reactions & voting.
-- **Forum Example**: a full-fledged Hacker News-style forum codebase [[docs]](http://docs.vulcanjs.org/example-forum.html). 
-- **Customization Example**: how to customize other Vulcan packages, based on the Forum Example [[video+tutorial]](http://docs.vulcanjs.org/example-customization.html). 
+- **Forum Example**: a full-fledged Hacker News-style forum codebase [[docs]](http://docs.vulcanjs.org/example-forum.html).
+- **Customization Example**: how to customize other Vulcan packages, based on the Forum Example [[video+tutorial]](http://docs.vulcanjs.org/example-customization.html).
 
 ## Complete Install
 
@@ -148,7 +172,7 @@ Note that, to use the scripts below, you **must already have** SSH access to Git
 #### Step 3 - Prepare your project
 
     cd ${PROJECTS_DIRECTORY};
-    
+
     # Clone Vulcan starter kit as your named project
     git clone git@github.com:VulcanJS/Vulcan-Starter.git ${NEW_PROJECT_NAME}
 
